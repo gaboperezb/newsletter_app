@@ -1,6 +1,6 @@
 # Notes
 
-## How to run the app (Docker and Node.js must be installed):
+## How to run the app (Docker must be installed):
 
 ### `docker-compose up`
 Starts and runs the app

@@ -71,9 +71,9 @@ function SubscribeForm(props) {
             <p className="publish__title">Add email to recipient list</p>
             <form onSubmit={(e) => handleSubscribeSubmit(e)}>
                 <div className="form__group">
-                    <label className="form__label" htmlFor="order">Email</label>
+                    <label className="form__label" htmlFor="email">Email</label>
                     <div className="form__item">
-                        <input onChange={(e) => handleInputChange("email", e)} value={email} className="form__input" type="email" id="order" />
+                        <input onChange={(e) => handleInputChange("email", e)} value={email} className="form__input" type="email" id="email" />
                     </div>
                 </div>
                 <button type="submit" value="Submit" className="button button--fill">Add</button>

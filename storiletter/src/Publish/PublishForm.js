@@ -165,11 +165,11 @@ function PublishForm(props) {
                         </label>
 
                         {scheduleOption === "schedule" && <div className="schedule">
-                            <label for="date">Date</label>
+                            <label htmlFor="date">Date</label>
                             <div className="form__item form__item--schedule">
                                 <input onChange={(e) => handleInputChange("date", e)} value={date} className="formInput" id="date" type="date" />
                             </div>
-                            <label for="time">Time</label>
+                            <label htmlFor="time">Time</label>
                             <div className="form__item">
                                 <input onChange={(e) => handleInputChange("time", e)} value={time} className="formInput form__item--schedule" id="time" type="time" />
                             </div>

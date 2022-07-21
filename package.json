@@ -1,0 +1,21 @@
+{
+  "name": "storiletter-app",
+  "version": "1.0.0",
+  "description": "## How to run the app (Docker must be installed):",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install-front": "cd storiletter && npm install",
+    "install-back": "cd storiletter-server && npm install "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/gaboperezb/storiletter-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaboperezb/storiletter-app/issues"
+  },
+  "homepage": "https://github.com/gaboperezb/storiletter-app#readme"
+}

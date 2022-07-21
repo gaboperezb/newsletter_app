@@ -1,0 +1,40 @@
+.container {
+    width: 80%;
+    margin: 40px auto;
+}
+
+.top-container {
+    max-width: 800px;
+    margin: 0 auto;
+    height: 260px;
+}
+
+.bottom-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+
+.publish__title {
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+
+.form__group {
+    
+    border-radius: 3px;
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+.button {
+    width: 100%;
+    justify-content: center;
+}
+
+
+
+
+

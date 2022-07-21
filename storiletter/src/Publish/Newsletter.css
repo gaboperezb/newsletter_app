@@ -1,0 +1,24 @@
+.newsletter-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    padding: 32px 0;
+    box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.1);
+    
+
+}
+
+.newsletter__img {
+    margin-left: 30px;
+}
+
+.newsletter__info {
+    margin-top: 30px;
+   
+    color: rgba(0, 0, 0, 0.699);
+}
+
+.newsletter__stat {
+    font-size: 12px;
+    margin-top: 8px;
+}

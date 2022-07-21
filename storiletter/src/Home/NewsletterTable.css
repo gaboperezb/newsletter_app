@@ -1,0 +1,12 @@
+.newsletter-table {
+    width: 700px;
+    margin: 80px auto;
+}
+
+.newsletter-table__title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #404040;
+    padding-bottom: 32px;
+    box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.1);
+}

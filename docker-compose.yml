@@ -1,0 +1,19 @@
+version: '3.8'
+services:
+  storiletter-server:
+    build: ./storiletter-server
+    container_name: storiletter-server_backend
+    ports:
+      - '4000:4000'
+  storiletter:
+    build: ./storiletter
+    container_name: storiletter_frontend
+    ports:
+      - '3000:3000'
+    stdin_open: true
+    tty: true
+  mongo:
+    container_name: mongo
+    image: mongo
+    ports:
+      - "27017:27017"

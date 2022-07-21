@@ -10,7 +10,7 @@ function PublishForm(props) {
     const [scheduleOption, setScheduledOption] = useState("now");
     
     const [publishing, setPublishing] = useState(false);
-    const today = new Date().toISOString().split('T')[0];
+   
 
     const handlePublishSubmit = (e) => {
         e.preventDefault();
@@ -167,7 +167,7 @@ function PublishForm(props) {
                         {scheduleOption === "schedule" && <div className="schedule">
                             <label for="date">Date</label>
                             <div className="form__item form__item--schedule">
-                                <input min={today} onChange={(e) => handleInputChange("date", e)} value={date} className="formInput" id="date" type="date" />
+                                <input onChange={(e) => handleInputChange("date", e)} value={date} className="formInput" id="date" type="date" />
                             </div>
                             <label for="time">Time</label>
                             <div className="form__item">
